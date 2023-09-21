@@ -39,7 +39,7 @@
 # print(numeros)
 
 # list = [1,2,3,4,5]
-# soma = sum(
+# soma = sum(list)
 # print(soma)~
 
 #Encontra o valor maximo e o valor minimo
@@ -77,17 +77,28 @@
 # print(list(n))
 # print(sum(n)/10)
 
-
-
 ### Novos exercicios
 ### Exercício 1: Escreva um programa que use a função range() para gerar os números pares de 2 a 20 e, em seguida, calcule e imprima a média desses números.
 # n = range(2,21,2)
 # print(sum(n)/10)
 
 ### Exercício 2: Escreva um programa que imprima os números pares de 2 a 20.
-n = range(2,21,2)
-print(list(n))
+# n = range(2,21,2)
+# print(list(n))
 
 ### Exercício 3: Escreva um programa que calcule a soma dos números de 1 a 100.
+# numeros = range(1,101)
+# print(sum(numeros))
+### Exercício 3.1: Outra maneira de fazer, porem de uma forma mais eficiente quando pensamos em enconomizar recursos computacionais, loop for.
+# soma = 0 
+# for i in range(1, 101):
+#     soma += i
+# print("A soma dos números de 1 a 100 é,", soma)
+### Exercício 4: Escreva um programa que imprima os múltiplos de 5 de 5 a 50.
+# numeros = range(5,51,5)
+# print(list(numeros))
+### Exercício 4.1
+# print("Multiplos de 5 de 5 a 50:")
+# for numeros in range(5,51,5):
+#     print(numeros)
 
-# Exercício 4: Escreva um programa que imprima os múltiplos de 5 de 5 a 50.
